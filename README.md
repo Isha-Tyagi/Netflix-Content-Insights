@@ -5,7 +5,10 @@
 - [Data Sources](#Data-Sources)
 - [Data Cleaning/Preparation](#data-cleaning/preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- 
+- [Results/Findings](#results/findings)
+- [Limitations](#limitations)
+
+  
 ### Project Overview
 Netflix is a streaming service that offers TV shows, movies, documentaries and more on thousands of devices.
 This data analysis project aims to provide insights into the content available on Netflix, focusing on aspects like the types of content (movies vs. TV shows), geographical distribution, release trends, ratings, and notable actors. The analysis will help in understanding patterns and trends in Netflix's catalog.
