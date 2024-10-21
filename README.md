@@ -48,9 +48,12 @@ EDA involved exploring the Netflix data to answer key questions, such as:
 
 
 ### Results/Findings
-Trends in Content Release: Most releases occurred in recent years from 2017 to 2020, 2019 had most releases.
-Top-rat
-Notable Cast Insights: Certain actors appear more frequently, indicating partnerships or popularity on the platform.
+
+- Total movies and TV shows: The dataset contains a total of 5377 movies and 2410 TV shows, with a noticeable increase in releases during recent years, particularly from 2017 to 2020.
+- Trends in Content Release: The number of releases surged between 2017 and 2020, with the peak occurring in 2019.
+- Regional content insights: The United States leads in the number of Netflix TV shows.
+- Ratings: Netflix content spans 14 different ratings, such as 'TV-MA', 'R', 'PG-13', 'TV-14', 'TV-PG', 'NR', 'TV-G', 'TV-Y', 'TV-Y7', 'PG', 'G', 'NC-17', 'TV-Y7-FV', 'UR'.
+- Duration of content: The longest piece of content in the dataset has a duration of 99 minutes.
 
 ### Limitations
 
