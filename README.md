@@ -1,5 +1,8 @@
 # Netflix Content Analysis
 
+![image](https://github.com/user-attachments/assets/d96341c1-dfa5-4af6-a00b-b560eb26904c)
+
+
 ## Table Of Content
 - [Project Overview](#Project-Overview)
 - [Data Sources](#Data-Sources)
@@ -25,25 +28,19 @@ Netflix Data: The dataset contains information on movies and TV shows available 
 
 ### Data Cleaning/Preparation
 - Removing duplicates (only 2 duplicated values were there).
-- Handling missing values (Director, Cast, Country, Release_Date, Rating columns had the missing values).    
-
+- Handling missing values (Director, Cast, Country, Release_Date, Rating columns had the missing values).
+- A new column "Date_N" was created by converting "Release_Date" from an object to a datetime format.
+- A new column "Year" was created from the "Date_N" column, dedicated to capturing the release year of each movie or TV show.
+  
 ### Exploratory Data Analysis
 
 EDA involved exploring the Netflix data to answer key questions, such as:
 
 - How many movies & TV shows are in the dataset?
-  
-  `data['Category'].value_counts()`
-
-  `sns.countplot(data['Category'])`
-  
 - Show all the movies that were released in year 2000.
 - Show only the titles of all TV shows that were released in India only.
 - Show all the records, where category is movie and type is comedies or country is United Kingdom.
 - For 'House of Cards', what is the show ID and who is the director of this show?
-  
-  `data[data['Title'].str.contains('House of Cards')]`
-  
 - In which year highest number of the TV shows and movies were released?
 - In how many movies/shows Tom Cruise was cast?
 - What are the different ratings defined by Netflix?
