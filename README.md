@@ -32,6 +32,11 @@ Netflix Data: The dataset contains information on movies and TV shows available 
 EDA involved exploring the Netflix data to answer key questions, such as:
 
 - How many movies & TV shows are in the dataset?
+  
+  `data['Category'].value_counts()`
+
+  `sns.countplot(data['Category'])`
+  
 - Show all the movies that were released in year 2000.
 - Show only the titles of all TV shows that were released in India only.
 - Show all the records, where category is movie and type is comedies or country is United Kingdom.
